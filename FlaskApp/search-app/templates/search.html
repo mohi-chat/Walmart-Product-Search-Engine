@@ -1,0 +1,52 @@
+<!-- Search Bar -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-  
+        scale=1">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-
+        awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/index.css">
+    </head>
+    <body>
+        <h1><center>Walmart Products</center></h1>
+        <form class="example" method="post" action="" 
+         style="margin:auto;max-width:600px">
+            <input type="text" placeholder="Search by product description" name="product">
+            <button type="submit"><i class="fa fa-search"></i>Search
+            </button>
+        </form>
+        <p></p>
+        <div style="text-align: center;">
+        <tr>
+            <td> <b>SEARCH RESULTS</b> </td>
+            <hr style="width:75%;height:4px;border-width:0;color:gray;background-color:gray;">
+            </br>
+        </tr>
+        </div>
+        <div style="padding-left:13%;text-align: center;width: 80%">
+            <!-- <center> -->
+            
+                
+                <div style="display: inline-block; text-align: left;">
+                    {% for item in data %}
+                        <tr>
+                            <td style="width:1%;white-space:nowrap;"> <b>Link: </b> <a href={{item[0]}}>{{item[0]}}</a> </td>
+                        </tr>
+                        </br>
+                        <tr>
+                            <td style="width:1%;white-space:nowrap;"> <b>Product: </b> {{item[1]}} </td>
+                        </tr>
+                        </br>
+                        <tr>
+                            <td style="width:1%;white-space:nowrap;">  <b>Price: </b>{{item[2]}} </td>
+                            <hr>
+                            </br></br>
+                        </tr>
+                    {% endfor %}
+                </div>
+            <!-- </center> -->
+        </div>
+    </body>
+</html>
