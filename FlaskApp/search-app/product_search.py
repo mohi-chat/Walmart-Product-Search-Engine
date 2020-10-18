@@ -8,6 +8,7 @@ app = Flask(__name__)
 def search():
     if request.method == "POST":
         query = request.form['product']
+	query = query.lower()
         data =[] 
         df = engine.search_query(query)
         sim = search_engine.check_similarity(df, query,engine.model_wiki)
