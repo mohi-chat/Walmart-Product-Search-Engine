@@ -1,7 +1,7 @@
 # Walmart-Product-Search-Engine
 
 ### Project Demo video: https://www.youtube.com/watch?v=t9r7HDujc7g
-### Use our search engine: http://ec2-3-131-98-216.us-east-2.compute.amazonaws.com:5000/search
+### Use our search engine: http://ec2-18-221-166-245.us-east-2.compute.amazonaws.com:5000/search
 A search engine to look up products listed in Walmart.com. Developed as part of TAMU Datathon 2020.
 
 Inspired by the search engine challenge and wanting to try our hand at a real-world dataset and the Walmart challenge gave us one of the best opportunities.
