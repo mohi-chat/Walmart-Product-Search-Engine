@@ -1,6 +1,6 @@
 # Walmart-Product-Search-Engine
 
-## Project Demo video: https://www.youtube.com/watch?v=t9r7HDujc7g
+### Project Demo video: https://www.youtube.com/watch?v=t9r7HDujc7g
 A search engine to look up products listed in Walmart.com. Developed as part of TAMU Datathon 2020.
 
 Inspired by the search engine challenge and wanting to try our hand at a real-world dataset and the Walmart challenge gave us one of the best opportunities.
