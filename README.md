@@ -4,7 +4,7 @@
 ### Use our search engine: http://ec2-18-221-166-245.us-east-2.compute.amazonaws.com:5000/search (Not Active)
 #### A search engine to look up products listed in Walmart.com. Developed as part of TAMU Datathon 2020. This project secured 2nd Place.
 
-Inspired by the search engine challenge and wanting to try our hand at a real-world dataset and the Walmart challenge gave us one of the best opportunities.
+Inspired by the search engine challenge and wanting to try our hand at a real-world dataset we took on the Walmart Datathon challenge. We had the following tasks at hand: 
 
 <b>Task I -:</b> We had to crawl various product information from walmart website to build our product database. This was one of the most laborious and frustrating tasks as we faced a lot of forbidden issues and captcha but this was a great learning step for us as we came across a lot of workarounds and things that we can face while scrapping data and processing it. We used a selenium based crawler with a headless server (phantomjs) for crawling. BeautifulSoup library was used to post process the raw html response. We used a random surfer model to hop from product to product to build up our product database. The final data we crawled can be found here: https://github.com/mohi-chat/Walmart-Product-Search-Engine/blob/main/FlaskApp/search-app/combined.csv
 
